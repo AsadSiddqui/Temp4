@@ -1,0 +1,231 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  height: 100vh;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 15px;
+}
+.parents {
+z-index: 1;
+position: fixed;
+width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 8px 16px;
+  background-color: black;
+}
+.child {
+
+  padding: 8px 16px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  height: 3.64%;
+}
+.nav {
+  color: white;
+  width: 24.9999999%;
+  text-decoration: none;
+  justify-content: space-around;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 15px;
+}
+.bgimg {
+  position: relative;
+  background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  filter: grayscale(50%);
+}
+.child1 {
+  position: absolute;
+  font-size: 90px;
+  top: 30%;
+  font-family: "Inconsolata", sans-serif;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.time {
+  position: absolute;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 15px;
+  top: 92%;
+  left: 1%;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.address {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  padding: 12px 24px !important;
+  color: white;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 15px;
+}
+/* .frame0{
+    height: 100%;
+} */
+.grandparents {
+  height: 75%;
+}
+.gp1{
+  color: #000!important;
+  background-color: #fdf5e6!important;
+    font-size: 18px!important;
+    filter: grayscale(75%);
+}
+.parents1{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+ .tag{
+  text-align: center;
+ 
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+
+  
+ }
+ .h5{
+   text-align: center;
+   background-color: #000;
+   color: white;
+   display: inline-block;
+   font-family:"Segoe UI",Arial,sans-serif;
+  padding: 0px 8px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 18px;
+ }
+ .para{
+   margin: 10px 0px;
+ }
+ .para1{
+   color: #000;
+   background-color: #f1f1f1!important;
+   border-left: 6px solid #ccc!important;
+   margin:16px 0px;
+   padding: 0.01em 16px;
+
+ }
+ .img{
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 16px!important;
+  vertical-align: middle;
+
+}
+.box{
+  /* padding: 8px 16px!important; */
+  box-shadow:0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+
+}
+.box1{
+  display: flex;
+  padding: 8px 16px!important;
+}
+.p1, .p2{
+  width: 50%;
+  text-align: center;
+  
+}
+.p2{
+  background-color: #616161!important;
+  color: white;
+}
+.w3-text-grey{
+  color: #757575!important;
+
+}
+.box2{
+  box-shadow:0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  display: block;
+  padding: 48px 16px;
+ 
+}
+.h51{
+  font-size: 18px;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+.img1{
+  margin-top: 32px;
+  width: 100%;
+  max-width: 1000px;
+  /* margin-top: 16px!important; */
+  vertical-align: middle;
+}
+.w3-tag{
+  background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.para2{
+  margin: 18px 0px;
+}
+.form{
+  display: grid;
+}
+input{
+  border: none;
+  padding: 16px 8px;
+  margin: 10px 0px;
+  font: inherit;
+}
+.btn{
+  color: white;
+  background-color: black;
+  padding: 8px 16px;
+  border: none;
+  font-size: 18px;
+  font-family: "Inconsolata", sans-serif;
+  margin: 18px 0px;
+
+}
+.btn:hover{
+  color: black;
+  background-color: #cccccc;
+}
+.lastdiv{
+  color: black;
+  background-color: #f1f1f1!important;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 48px;
+  }
+  .pl{
+    margin: 18px 0px;
+
+  }
+.text-green{
+  color: #000;
+}
+.text-green:hover{
+  
+  color: #4CAF50!important;
+}
+@media  screen and ( max-width: 600px ) {
+  .time {     display: none;  }
+  
+}
+.gp1{
+  padding: 0.01em 16px;
+}
